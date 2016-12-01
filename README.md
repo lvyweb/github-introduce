@@ -22,12 +22,12 @@
 
 需求：想要获取远程仓库到本地
 
-1. 使用 `git clone 远程仓库地址`
-2.git init 初始化当前文件夹为可操控的git仓库
-3.git status 查看状态信息,显示更新内容
-4.git add --all 或者git add .或者git add 文件名 添加文件
-5.git commit -m "第一次提交"
-6.git push 推送到远端
+1. 使用 `git clone 远程仓库地址`  
+2.git init 初始化当前文件夹为可操控的git仓库  
+3.git status 查看状态信息,显示更新内容  
+4.git add --all 或者git add .或者git add 文件名 添加文件  
+5.git commit -m "第一次提交"  
+6.git push 推送到远端  
 
 只要执行了上面的操作之后，git 会自动帮你通过网络去下载对应的远程仓库，
 下载下来之后自动添加一个 remote，地址是你 clone 的那个地址，名字叫 origin。
@@ -41,12 +41,12 @@
 ### 步骤
 
 需求：A的项目想让B参与
-1.登录A的github，找到settings--->collaborator--->添加(add) 
-2.B会收到邮件，B同意协同开发
-3.git add .
-4.git commit -m "提交日志"
-5.git push origin master
-6.git pull 如果不是最新版本  从线上拉取最新版本
+1.登录A的github，找到settings--->collaborator--->添加(add)   
+2.B会收到邮件，B同意协同开发  
+3.git add .  
+4.git commit -m "提交日志"  
+5.git push origin master    
+6.git pull 如果不是最新版本  从线上拉取最新版本  
  
 
 #### 权限问题
@@ -66,9 +66,9 @@
 
 
 ## 与陌生人协同开发
-1.把别人的代码fork一份到自己本地
-2.修改之后提交到自己远端
-3.发起pullrequest给所有者
-4.对方同意你的修改
-5.你成了项目贡献者之一
+1.把别人的代码fork一份到自己本地  
+2.修改之后提交到自己远端  
+3.发起pullrequest给所有者  
+4.对方同意你的修改  
+5.你成了项目贡献者之一  
 
