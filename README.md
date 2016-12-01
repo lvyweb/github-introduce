@@ -22,7 +22,7 @@
 
 需求：想要获取远程仓库到本地
 
-1. 使用 `git clone 远程仓库地址`  
+1.使用 `git clone 远程仓库地址`  
 2.git init 初始化当前文件夹为可操控的git仓库  
 3.git status 查看状态信息,显示更新内容  
 4.git add --all 或者git add .或者git add 文件名 添加文件  
