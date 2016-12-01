@@ -5,20 +5,20 @@
 ### 假设本地有一个通过 `git init` 创建出来的仓库
 
 需求：将这个本地仓库放到线上远程仓库。
-1.git add .或者使用git --all添加全部文件
-2.git commit -m "版本更新信息"
-3. 在第三方托管服务那里新建一个空仓库
-4. 拿到空仓库的地址
-5. 使用 `git remote add abc https://github.com/itcast-aaa/hello.git`
-6. 使用 `git push abc master`
-7. 通过上面的操作之后，以后每次去 `push` 的时候都必须显示的写上 `git push 远端仓库地址别名 分支名称`
+1.git add .或者使用git --all添加全部文件  
+2.git commit -m "版本更新信息"  
+3. 在第三方托管服务那里新建一个空仓库  
+4. 拿到空仓库的地址  
+5. 使用 `git remote add abc https://github.com/itcast-aaa/hello.git`  
+6. 使用 `git push abc master`  
+7. 通过上面的操作之后，以后每次去 `push` 的时候都必须显示的写上 `git push 远端仓库地址别名 分支名称`  
 
 如果不想每次  `push` 的时候都写那么长（没有多个远程仓库，也不需要频繁的去push不同的分支），
-假设每次都是 `push` 到 abc master，那么可以通过 `git push --set-upstream abc master` (与远程仓库相关联，下次推送还是默认这个)去推送一次。
+假设每次都是 `push` 到 abc master，那么可以通过 `git push --set-upstream abc master` (与远程仓库相关联，下次推送还是默认这个)去推送一次。  
 
-那么在以后的 push 中，只要仓库地址没变、分支不变，就可以直接 `git push`。
+那么在以后的 push 中，只要仓库地址没变、分支不变，就可以直接 `git push`。  
 
-### 本地没有，线上有
+### 本地没有，线上有  
 
 需求：想要获取远程仓库到本地
 
